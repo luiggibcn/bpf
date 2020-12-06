@@ -2,7 +2,7 @@
 
     [x] Colors
     [x] Folders structure (Scaffolding)
-    [ ] Custom Icons
+    [x] Custom Icons
     [ ] State management (GetX)
 # Colors Page
 
@@ -36,3 +36,12 @@ $ chmod +x folders.sh
 │   └── routes
 └── utils
 ```
+
+# Custom icons
+ 
+ - Download your icons from [FlutterIcon.com][fl1] 
+ - Copy TTF file inside "assets/fonts"
+ - Move the dart file into your desired directory in lib (I did ``` lib/presentation/shared/custom_icons/b_p_f_icons.dart``` )
+ - Follow the instructions at the top of your dart file and copy the fonts code into ``` pubspec.yml```
+ 
+   [fl1]: <https://www.fluttericon.com/>

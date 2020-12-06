@@ -1,5 +1,6 @@
 import 'src/config/styles.dart';
 import 'package:flutter/material.dart';
+import 'package:best_practices_flutter/presentation/shared/custom_icons/b_p_f_icons.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,6 +14,9 @@ class MyApp extends StatelessWidget {
         backgroundColor: mainWhite,
         appBar: AppBar(
           title: Text('Flutter Best Practices - Colors'),
+          leading: Icon(
+            BPF.camera,
+          ),
         ),
         body: GridView.builder(
             itemCount: themeColors.length,
