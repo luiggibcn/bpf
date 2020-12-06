@@ -9,17 +9,26 @@
 # Articles
 
 [Parte 1: Generando colores de la guía de estilos][articulo1]
+
 [Parte 2: Estructura de carpetas][articulo2]
+
 [Parte 3: Generando biblioteca de iconos custom][articulo3]
+
 [Parte 4: Implementando GetX][articulo4]
+
 [Parte 5: Dando funcionalidad y animando la Splash Screen][articulo5]
+
 
 # Branches
 
 [Branch colors][branch1]
+
 [Branch Folder structure][branch2]
+
 [Branch Custom Icons][branch3]
+
 [Branch State Management GetX][branch4]
+
 [Branch Splash Animation][branch5]
 
 
