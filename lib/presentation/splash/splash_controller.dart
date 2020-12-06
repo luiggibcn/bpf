@@ -3,6 +3,9 @@ import 'package:get/get.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 
 class SplashController extends GetxController {
+  RxDouble widthAnim = 0.0.obs;
+  RxDouble heightAnim = 0.0.obs;
+  RxDouble opacityAnim = 0.0.obs;
   SplashController();
 
   @override
@@ -14,6 +17,9 @@ class SplashController extends GetxController {
   @override
   void onReady() {
     debugPrint('Splash screen loaded');
+    opacityAnim(1.0);
+    widthAnim(200.0);
+    heightAnim(200.0);
     super.onReady();
   }
 
