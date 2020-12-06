@@ -3,7 +3,8 @@
     [x] Colors
     [x] Folders structure (Scaffolding)
     [x] Custom Icons
-    [ ] State management (GetX)
+    [x] State management (GetX)
+    [x] Splash Animation
 # Colors Page
 
 [![N|Colors](https://raw.githubusercontent.com/luiggibcn/flutter-best-practices/colors/screenshots/colors.png)](https://github.com/luiggibcn/flutter-best-practices/tree/colors)
